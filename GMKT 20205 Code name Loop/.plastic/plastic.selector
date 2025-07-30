@@ -1,4 +1,0 @@
-repository "GMKT 20205 Code name Loop/GMKT 20205 Code name Loop@11270159905159@cloud"
-  path "/"
-    br "/main"
-    co "/main"
