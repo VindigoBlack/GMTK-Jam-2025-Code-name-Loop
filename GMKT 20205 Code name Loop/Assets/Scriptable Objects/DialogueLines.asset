@@ -14,7 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - Hello!
-  - This is some test dialouge
+  - This is some test dialogue
   - If you are seeing this it means it is working properly
   - Fantastic!
+  - Hello!
+  - This is the second set of dialogue
+  - I put it here for testing purposes
+  - Hopefully this works for phase 2!
+  - Hello there!
+  - This is the third set of dialogue
+  - This comes at phase 3!
+  phaseLineIndexes: 000000000400000008000000
   currentPhase: 0

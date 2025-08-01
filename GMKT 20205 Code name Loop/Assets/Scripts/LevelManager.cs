@@ -24,6 +24,9 @@ public class LevelManager : MonoBehaviour
                 case "StartScene":
                     SceneManager.LoadScene("TestScene");
                     break;
+                case "TestScene":
+                    SceneManager.LoadScene("StartScene");
+                    break;
                 default:
                     Debug.Log("No next scene");
                     break;
