@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerTracker : MonoBehaviour
 {
     [SerializeField]
-    private float speedDivider = 10f;
+    private float speedDivider = .4f;
 
     public GameObject player;
 

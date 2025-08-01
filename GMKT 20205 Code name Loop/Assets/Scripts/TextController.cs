@@ -5,18 +5,17 @@ using UnityEngine;
 public class TextController : MonoBehaviour
 {
     [SerializeField]
-    private string textToSay;
-    [SerializeField]
     private float characterIntervalInSeconds;
+    [SerializeField]
+    private float dialougeLinesIntervalInSeconds;
 
+    public DialogueLines dialogueLines;
     public TextMeshPro textComponent;
 
     private Coroutine speechCoroutine;
 
     void Start()
     {
-        if (textToSay == "") textToSay = "Hello, this is an example text";
-
         speechCoroutine = StartCoroutine(SayText());
     }
 
@@ -27,11 +26,15 @@ public class TextController : MonoBehaviour
 
     private IEnumerator SayText()
     {
-        textComponent.text = "";
-        foreach (char c in textToSay)
-        {
-            textComponent.text += c;
-            yield return new WaitForSeconds(characterIntervalInSeconds);
-        }
+        foreach (string s in dialogueLines.lines) 
+        { 
+            yield return new WaitForSeconds(dialougeLinesIntervalInSeconds);
+            textComponent.text = "";
+            foreach (char c in s)
+            {
+                textComponent.text += c;
+                yield return new WaitForSeconds(characterIntervalInSeconds);
+            }
+        } 
     }
 }
