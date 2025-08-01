@@ -1493,6 +1493,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1180833188870372309, guid: 71b58346d7abb114a8818df63cf9b48a, type: 3}
+      propertyPath: dash
+      value: 
+      objectReference: {fileID: -794663446961775296, guid: 35ed10bcc38a70f46ae7ba7892f16929, type: 3}
+    - target: {fileID: 1180833188870372309, guid: 71b58346d7abb114a8818df63cf9b48a, type: 3}
+      propertyPath: dashMultiplier
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180833188870372309, guid: 71b58346d7abb114a8818df63cf9b48a, type: 3}
+      propertyPath: groundFriction
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180833188870372309, guid: 71b58346d7abb114a8818df63cf9b48a, type: 3}
+      propertyPath: dashTimeSeconds
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180833188870372309, guid: 71b58346d7abb114a8818df63cf9b48a, type: 3}
+      propertyPath: dashTimeInSeconds
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 3047527920819034141, guid: 71b58346d7abb114a8818df63cf9b48a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.48

@@ -179,15 +179,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   maxMoveSpeed: 10
-  groundFriction: 0.9
+  groundFriction: 0.85
   jumpForce: 12
   maxJumpForce: 12
   downwardsVelocityForce: 0.45
+  dashTimeInSeconds: 0.1
+  dashMultiplier: 2.5
   isFalling: 0
+  hasDashed: 0
   myRigidbody: {fileID: 5223044629304482935}
+  isFacingLeft: 0
   groundDetector: {fileID: 1346798996919008015}
   move: {fileID: 7837206943340737888, guid: 35ed10bcc38a70f46ae7ba7892f16929, type: 3}
   jump: {fileID: -329201501453337887, guid: 35ed10bcc38a70f46ae7ba7892f16929, type: 3}
+  dash: {fileID: -794663446961775296, guid: 35ed10bcc38a70f46ae7ba7892f16929, type: 3}
 --- !u!114 &9091427510574858673
 MonoBehaviour:
   m_ObjectHideFlags: 0

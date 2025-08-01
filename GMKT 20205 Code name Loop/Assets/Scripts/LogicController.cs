@@ -6,6 +6,7 @@ public class LogicController : MonoBehaviour
     private int currentPhase;
     void Start()
     {
+        // Add self check for duplicates
         currentPhase = dialogueLines.currentPhase;
     }
 
